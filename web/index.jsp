@@ -1,16 +1,20 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Wink
-  Date: 16/05/2017
-  Time: 10:56
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<h3>Cliente MAIN</h3>
+<form method="post" action="clienteInfo">
+
+    ID: <input type="text" id="idCliente" name="clienteID" /><br/>
+    Name: <input type="text" id="clienteName" name="clienteName"/><br/>
+    Mail: <input type="text" id="clienteMail" name="clienteMail"/><br/>
+
+    <input type="submit" name="oQueFazer" value="Cadastrar" />
+    <input type="submit" name="oQueFazer" value="Deletar" />
+    <input type="submit" name="oQueFazer" value="Atualizar" />
+    <input type="submit" name="oQueFazer" value="Obter" />
+</form>
+</body>
 </html>
